@@ -1,11 +1,11 @@
 # chacha8-js
 A pure javascript ChaCha8 cipher implementation
 
-##install
+## install
 
 `npm install chacha8-js --save`
 
-##usage
+## usage
 
 ```javascript
 var Chacha8 = require('chacha8-js');
