@@ -1,0 +1,28 @@
+{
+    "name": "chacha8-js",
+    "version": "0.9.1",
+    "keywords": [
+        "util",
+        "crypto",
+        "chacha8",
+        "pow",
+        "cryptonight"
+    ],
+    "author": "XzenTorXz <xzentorxz@aol.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/XzenTorXz/chacha8-js.git"
+    },
+    "contributors": [],
+    "main": "main.js",
+    "license": "MIT",
+    "scripts": {
+        "test": "mocha tests",
+        "test-coverage": "nyc --reporter=html --reporter=text mocha tests"
+    },
+    "devDependencies": {
+        "chai": "^4.1.2",
+        "mocha": "^5.0.1",
+        "nyc": "^11.4.1"
+    }
+}
